@@ -6,7 +6,7 @@
         <groupId>com.coolers.cloud</groupId>
         <artifactId>cloud-parent</artifactId>
         <version>0.0.1</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath>../cloud-parent/pom.xml</relativePath>
     </parent>
     <artifactId>cloud-other</artifactId>
     <version>0.0.1</version>
@@ -30,7 +30,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
     </dependencies>
 
